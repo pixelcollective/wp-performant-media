@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple lazy-loading images with subtle CSS transition and polyfill support.",
   "main": "index.js",
-  "repository": "git@github.com:pixelcollective/tiny-lozad.git",
+  "repository": "git@github.com:pixelcollective/wp-performant-media.git",
   "author": "Kelly Mears <developers@tinypixel.io>",
   "license": "MIT",
   "scripts": {
