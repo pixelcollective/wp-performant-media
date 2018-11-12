@@ -1,5 +1,6 @@
 {
     "name": "tiny-pixel/wp-performant-media",
+    "type": "wordpress-plugin",
     "description": "Simple lazy-loading images with subtle CSS transition and polyfill support.",
     "authors": [
         {
