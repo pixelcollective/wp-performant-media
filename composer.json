@@ -1,0 +1,14 @@
+{
+    "name": "tiny-pixel/wp-performant-media",
+    "description": "Simple lazy-loading images with subtle CSS transition and polyfill support.",
+    "authors": [
+        {
+            "name": "Kelly Mears",
+            "email": "developers@tinypixel.io",
+            "homepage": "https://tinypixel.io",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://tinypixel.io/open-source/"
+}
