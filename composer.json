@@ -5,10 +5,9 @@
         {
             "name": "Kelly Mears",
             "email": "developers@tinypixel.io",
-            "homepage": "https://tinypixel.io",
-            "role": "Developer"
+            "homepage": "https://tinypixel.io"
         }
     ],
     "license": "MIT",
-    "homepage": "https://tinypixel.io/open-source/"
+    "homepage": "https://github.com/pixelcollective/wp-performant-media"
 }

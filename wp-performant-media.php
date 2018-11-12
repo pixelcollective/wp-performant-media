@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: &nbsp;✨WP Performant Media✨
-Description: Simple lazy-loading images with subtle CSS transition and polyfill support.
-Plugin URI: https://github.com/pixelcollective/tiny-lozad
+Description: Simple lazy-loading images with an elegant focus effect.
+Plugin URI: https://github.com/pixelcollective/wp-performant-media
 Author: Tiny Pixel Collective, Kelly Mears <developers@tinypixel.io>
 Version: 1.0.0
 Author URI: https://tinypixel.io
@@ -12,15 +12,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-/**
- * Bootstrap CMB2
- * 
- */
-
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_script( 'intersection-observer-polyfill', plugins_url( 'vend/intersection-observer.js',  __FILE__ ), [], null, true );
-    wp_enqueue_script( 'lozad', plugins_url( 'vend/lozad.js',  __FILE__ ), ['intersection-observer-polyfill'], null, true );
-    wp_enqueue_script( 'pixel_lazy', plugins_url('tiny-pixel-lozad.js',  __FILE__ ), ['lozad'], null, true );
+    wp_enqueue_script( 'wp-performant-media.js', plugins_url( 'dist/wp-performant-media.js',  __FILE__ ), [], '1.0.0', true );
+    wp_enqueue_style( 'wp-performant-media.css', plugins_url( 'dist/wp-performant-media.css',  __FILE__ ), [], '1.0.0' );
 });
 
 add_filter('the_content', function ($content) {

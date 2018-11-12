@@ -1,14 +1,13 @@
 .lazy-load {
-    opacity: 0;
+  opacity: 0;
 }
 
 .lazy-load.is-loaded {
-    -webkit-animation: focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-    animation: focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-    opacity: 1;
+  -webkit-animation: focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  opacity: 1;
 }
 
-/* focus-in keyframes */
 @-webkit-keyframes focus-in {
   0% {
     -webkit-filter: blur(12px);
