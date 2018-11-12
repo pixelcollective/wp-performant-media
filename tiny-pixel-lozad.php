@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: &nbsp;✨Lazy Loading✨
-Description: Deferred image downloads for WordPress
-Plugin URI: https://github.com/pixelcollective/pixel_lozad
+Plugin Name: &nbsp;✨WP Performant Media✨
+Description: Simple lazy-loading images with subtle CSS transition and polyfill support.
+Plugin URI: https://github.com/pixelcollective/tiny-lozad
 Author: Tiny Pixel Collective, Kelly Mears <developers@tinypixel.io>
 Version: 1.0.0
 Author URI: https://tinypixel.io
