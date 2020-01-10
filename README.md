@@ -2,12 +2,9 @@
 
 [![Latest Stable Version](https://poser.pugx.org/tiny-pixel/wp-performant-media/v/stable)](https://packagist.org/packages/tiny-pixel/wp-performant-media) [![Total Downloads](https://poser.pugx.org/tiny-pixel/wp-performant-media/downloads)](https://packagist.org/packages/tiny-pixel/wp-performant-media) [![License](https://poser.pugx.org/tiny-pixel/wp-performant-media/license)](https://packagist.org/packages/tiny-pixel/wp-performant-media)
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/pixelcollective/wp-performant-media.svg?columns=all)](https://waffle.io/pixelcollective/wp-performant-media)
-
 Simple lazy-loading images with subtle CSS transitions and polyfill support.
 
 Free & Open Source Software from the labs at [Tiny Pixel](https://tinypixel.io).
-
 
 ### 🚀
 
